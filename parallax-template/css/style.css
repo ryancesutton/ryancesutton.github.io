@@ -60,5 +60,16 @@ footer.page-footer {
 
 /*RY SUTTON CUSTOM CSS*/
 a.center-align.red-text.text-lighten-3:hover {
-  border: solid 1px #EF9A9A;
+  outline: solid 1px #EF9A9A;
+  background: transparent;
+}
+
+#index-banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+nav.transparent {
+  box-shadow: none;
 }
